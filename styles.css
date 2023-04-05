@@ -1,0 +1,22 @@
+.contenedor-padre{
+    background-color: rebeccapurple;
+    width: 600px;
+    height: 500px;
+    display: flex; /* flex es un display que permite alinear los elementos hijos de un contenedor padre */
+  /*  flex-direction: row-reverse; /* flex-direction es una propiedad que permite alinear los elementos hijos de un contenedor padre */
+  /* flex-direction: column; /* flex-direction es una propiedad que permite alinear los elementos hijos de un contenedor padre */
+   /* flex-direction: column-reverse; /* flex-direction es una propiedad que permite alinear los elementos hijos de un contenedor padre */
+   /* justify-content: center; /* justify-content es una propiedad que permite alinear los elementos hijos de un contenedor padre */
+
+  /*  flex-wrap: wrap; /* wrap es una propiedad que permite que los elementos hijos se ajusten al contenedor padre */
+}
+
+
+.contenedor-hijo{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+}
+
